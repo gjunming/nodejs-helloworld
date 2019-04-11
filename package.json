@@ -5,7 +5,7 @@
     "author": "Guan Jun-Ming <gjunming@qq.com>",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js --max-http-header-size=20480"
     },
     "dependencies": {
         "express": "^4.16.4"
